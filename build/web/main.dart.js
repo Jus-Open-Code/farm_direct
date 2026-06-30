@@ -8680,7 +8680,7 @@ var $async$aK6=A.m(function(a,b){if(a===1)return A.n(b,r)
 for(;;)switch(s){case 0:if($.a1==null)A.auF()
 $.a1.toString
 s=2
-return A.j(A.asx("sb_publishable_O3CHqvpTKOZJwPfYM1-OCw_u8ADwI9M","https://tjntuhyxrmwgvoymsdyk.supabase.co"),$async$aK6)
+return A.j(A.asx("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRqbnR1aHl4cm13Z3ZveW1zZHlrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI4MzM5MjIsImV4cCI6MjA5ODQwOTkyMn0.100jacMbOWFZKQdUhhYMjr3_TnvPa4GWD933-HPuguw","https://tjntuhyxrmwgvoymsdyk.supabase.co"),$async$aK6)
 case 2:q=$.f5().b
 q===$&&A.a()
 p=new A.asf(q)

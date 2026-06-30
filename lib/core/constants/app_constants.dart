@@ -2,7 +2,7 @@ class AppConstants {
   // Supabase Configuration Placeholders
   // Replace these with your actual Supabase project credentials
   static const String supabaseUrl = 'https://tjntuhyxrmwgvoymsdyk.supabase.co';
-  static const String supabaseAnonKey = 'sb_publishable_O3CHqvpTKOZJwPfYM1-OCw_u8ADwI9M';
+  static const String supabaseAnonKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRqbnR1aHl4cm13Z3ZveW1zZHlrIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI4MzM5MjIsImV4cCI6MjA5ODQwOTkyMn0.100jacMbOWFZKQdUhhYMjr3_TnvPa4GWD933-HPuguw';
 
   // Navigation Routes
   static const String routeSplash = '/';
