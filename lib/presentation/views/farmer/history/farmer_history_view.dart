@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:farm_direct/domain/entities/order_entity.dart';
 import 'package:farm_direct/presentation/viewmodels/auth_viewmodel.dart';
 import 'package:farm_direct/presentation/viewmodels/farmer_viewmodel.dart';
 
@@ -47,7 +48,7 @@ class FarmerHistoryView extends StatelessWidget {
 
   Widget _buildOrderList(
     BuildContext context,
-    List<dynamic> list,
+    List<OrderEntity> list,
     FarmerViewModel vm,
     String farmerId,
   ) {
