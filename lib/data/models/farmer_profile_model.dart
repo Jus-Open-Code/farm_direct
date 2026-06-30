@@ -27,7 +27,7 @@ class FarmerProfileModel extends FarmerProfileEntity {
       state: json['state'] as String,
       pincode: json['pincode'] as String,
       farmSize: (json['farm_size'] as num).toDouble(),
-      products: List<String>.from(json['products'] ?? []),
+      products: List<String>.from(json['products'] as List? ?? []),
       profilePhoto: json['profile_photo'] as String?,
       createdAt: DateTime.parse(json['created_at'] as String),
     );
