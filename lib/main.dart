@@ -3,40 +3,40 @@ import 'package:provider/provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
 // Core Configurations
-import 'core/constants/app_constants.dart';
-import 'core/theme/app_theme.dart';
+import 'package:farm_direct/core/constants/app_constants.dart';
+import 'package:farm_direct/core/theme/app_theme.dart';
 
 // Data layer
-import 'data/datasources/supabase_remote_datasource.dart';
-import 'data/repositories/auth_repository_impl.dart';
-import 'data/repositories/profile_repository_impl.dart';
-import 'data/repositories/product_repository_impl.dart';
-import 'data/repositories/order_repository_impl.dart';
-import 'data/repositories/market_rate_repository_impl.dart';
+import 'package:farm_direct/data/datasources/supabase_remote_datasource.dart';
+import 'package:farm_direct/data/repositories/auth_repository_impl.dart';
+import 'package:farm_direct/data/repositories/profile_repository_impl.dart';
+import 'package:farm_direct/data/repositories/product_repository_impl.dart';
+import 'package:farm_direct/data/repositories/order_repository_impl.dart';
+import 'package:farm_direct/data/repositories/market_rate_repository_impl.dart';
 
 // Domain Use Cases
-import 'domain/usecases/auth_usecases.dart';
-import 'domain/usecases/profile_usecases.dart';
-import 'domain/usecases/product_usecases.dart';
-import 'domain/usecases/order_usecases.dart';
-import 'domain/usecases/market_rate_usecases.dart';
+import 'package:farm_direct/domain/usecases/auth_usecases.dart';
+import 'package:farm_direct/domain/usecases/profile_usecases.dart';
+import 'package:farm_direct/domain/usecases/product_usecases.dart';
+import 'package:farm_direct/domain/usecases/order_usecases.dart';
+import 'package:farm_direct/domain/usecases/market_rate_usecases.dart';
 
 // Presentation ViewModels
-import 'presentation/viewmodels/auth_viewmodel.dart';
-import 'presentation/viewmodels/farmer_viewmodel.dart';
-import 'presentation/viewmodels/buyer_viewmodel.dart';
-import 'presentation/viewmodels/market_rate_viewmodel.dart';
+import 'package:farm_direct/presentation/viewmodels/auth_viewmodel.dart';
+import 'package:farm_direct/presentation/viewmodels/farmer_viewmodel.dart';
+import 'package:farm_direct/presentation/viewmodels/buyer_viewmodel.dart';
+import 'package:farm_direct/presentation/viewmodels/market_rate_viewmodel.dart';
 
 // Presentation Views
-import 'presentation/views/splash_view.dart';
-import 'presentation/views/auth/login_view.dart';
-import 'presentation/views/auth/signup_view.dart';
-import 'presentation/views/auth/select_role_view.dart';
-import 'presentation/views/farmer/profile/create_farmer_profile_view.dart';
-import 'presentation/views/buyer/profile/create_buyer_profile_view.dart';
-import 'presentation/views/farmer/dashboard/farmer_dashboard_view.dart';
-import 'presentation/views/buyer/dashboard/buyer_dashboard_view.dart';
-import 'presentation/views/buyer/product_details/product_details_view.dart';
+import 'package:farm_direct/presentation/views/splash_view.dart';
+import 'package:farm_direct/presentation/views/auth/login_view.dart';
+import 'package:farm_direct/presentation/views/auth/signup_view.dart';
+import 'package:farm_direct/presentation/views/auth/select_role_view.dart';
+import 'package:farm_direct/presentation/views/farmer/profile/create_farmer_profile_view.dart';
+import 'package:farm_direct/presentation/views/buyer/profile/create_buyer_profile_view.dart';
+import 'package:farm_direct/presentation/views/farmer/dashboard/farmer_dashboard_view.dart';
+import 'package:farm_direct/presentation/views/buyer/dashboard/buyer_dashboard_view.dart';
+import 'package:farm_direct/presentation/views/buyer/product_details/product_details_view.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
