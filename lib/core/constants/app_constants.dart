@@ -1,8 +1,8 @@
 class AppConstants {
   // Supabase Configuration Placeholders
   // Replace these with your actual Supabase project credentials
-  static const String supabaseUrl = 'YOUR_SUPABASE_PROJECT_URL';
-  static const String supabaseAnonKey = 'YOUR_SUPABASE_ANON_KEY';
+  static const String supabaseUrl = 'https://tjntuhyxrmwgvoymsdyk.supabase.co';
+  static const String supabaseAnonKey = 'sb_publishable_O3CHqvpTKOZJwPfYM1-OCw_u8ADwI9M';
 
   // Navigation Routes
   static const String routeSplash = '/';
