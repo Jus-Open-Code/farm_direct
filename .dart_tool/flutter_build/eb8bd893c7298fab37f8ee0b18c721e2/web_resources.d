@@ -1,0 +1,1 @@
+ C:\\xampp\\htdocs\\New_App_St_Veb\\build\\web\\manifest.json:  C:\\xampp\\htdocs\\New_App_St_Veb\\web\\index.html C:\\xampp\\htdocs\\New_App_St_Veb\\web\\manifest.json
